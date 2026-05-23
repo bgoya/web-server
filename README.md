@@ -4,8 +4,6 @@
 
 Minimalist HTTP file transfer server implemented in Python using TCP sockets. The project supports file uploads and downloads between devices connected to the same local network, while exploring low-level networking concepts such as HTTP request handling, TCP communication and client-server architecture.
 
----
-
 ## Overview
 
 This project was developed as part of a networking and distributed systems assignment focused on the application layer of the TCP/IP model.
@@ -19,8 +17,6 @@ The server allows users to:
 
 The implementation was built from scratch using Python sockets and manual HTTP response handling.
 
----
-
 ## Features
 
 - File upload and download support
@@ -32,7 +28,7 @@ The implementation was built from scratch using Python sockets and manual HTTP r
 - Wireshark traffic analysis
 - Transfer-time experimentation and benchmarking
 
----
+
 
 ## Tech Stack
 
@@ -42,8 +38,6 @@ The implementation was built from scratch using Python sockets and manual HTTP r
 - Wireshark
 - R
 - Gzip
-
----
 
 ## Running the Server
 
@@ -76,7 +70,7 @@ The project implements:
 
 Connections are non-persistent: a new TCP connection is created for each request and closed once the response is sent.
 
----
+
 
 ## Compression Experimentation
 
@@ -91,7 +85,7 @@ Using Wireshark packet captures and transfer-time measurements, we compared comp
 
 The experimentation dataset was analyzed and visualized using R.
 
----
+
 
 ## Security Considerations
 
@@ -113,7 +107,7 @@ The project includes an analysis of:
 
 A basic password authentication mechanism was also implemented as an additional extension.
 
----
+
 
 ## Key Learnings
 - TCP socket programming
@@ -125,7 +119,7 @@ A basic password authentication mechanism was also implemented as an additional 
 - Network security fundamentals
 - Debugging low-level networking systems
 
----
+
 
 ## Repository Structure
 ```
@@ -144,7 +138,7 @@ A basic password authentication mechanism was also implemented as an additional 
 └── README.md
 ```
 
----
+
 
 ## Future Improvements
 
@@ -157,7 +151,7 @@ Potential future extensions include:
 - filename sanitization,
 - and improved error handling.
 
----
+
 
 ## Author
 
