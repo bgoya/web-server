@@ -1,5 +1,7 @@
 # HTTP File Transfer Server using TCP Sockets
 
+![Banner](assets/response.png)
+
 Minimalist HTTP file transfer server implemented in Python using TCP sockets. The project supports file uploads and downloads between devices connected to the same local network, while exploring low-level networking concepts such as HTTP request handling, TCP communication and client-server architecture.
 
 ---
@@ -137,6 +139,8 @@ A basic password authentication mechanism was also implemented as an additional 
 ├── docs/
 │   ├── report.pdf
 │   ├── wireshark.pdf
+├── assets/
+│   ├── response.png
 └── README.md
 ```
 
