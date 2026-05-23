@@ -128,15 +128,15 @@ A basic password authentication mechanism was also implemented as an additional 
 ## Repository Structure
 ```
 .
-├── analisis_HTTP_wireshark.pdf
 ├── server_fileTransfer.py
 ├── server_fileTransfer_contraseña.py
 ├── archivos_servidor/
-    ├── utdt_grande.jpg
-    ├── utdt_mediana.jpg
-    ├── utdt_pequeña.jpg
+│   ├── utdt_grande.jpg
+│   ├── utdt_mediana.jpg
+│   ├── utdt_pequeña.jpg
 ├── docs/
 │   ├── report.pdf
+│   ├── wireshark.pdf
 └── README.md
 ```
 
